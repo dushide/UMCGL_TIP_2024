@@ -1,0 +1,32 @@
+D_use_leaky_relu: False
+G_use_relu: False
+MNIST_use_relu_1: Ture
+device: cpu
+
+epoch: 300
+lr: 0.01
+
+conv_channel_2: 2
+conv_kernel_1: 3
+conv_padding_1: 1
+conv_kernel_2: 3
+conv_padding_2: 1
+
+convv_kernel_1: 3
+convv_padding_1: 1
+
+conv1_channel_2: 2
+conv1_kernel_1: 3
+conv1_padding_1: 1
+conv3_channel_2: 2
+conv3_kernel_2: 3
+conv3_padding_2: 1
+
+up1_channel_2: 2
+up3_channel_2: 2
+
+G_channel_2: 2
+G_kernel_1: 3
+G_padding_1: 1
+G_kernel_2: 3
+G_padding_2: 1

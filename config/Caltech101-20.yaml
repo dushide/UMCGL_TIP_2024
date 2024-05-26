@@ -1,0 +1,32 @@
+D_use_leaky_relu: False
+G_use_relu: False
+MNIST_use_relu_1: False
+device: 1
+
+epoch: 300
+lr: 0.005
+
+conv_channel_2: 8
+conv_kernel_1: 5
+conv_padding_1: 2
+conv_kernel_2: 5
+conv_padding_2: 2
+
+convv_kernel_1: 11
+convv_padding_1: 5
+
+conv1_channel_2: 8
+conv1_kernel_1: 3
+conv1_padding_1: 1
+conv3_channel_2: 8
+conv3_kernel_2: 3
+conv3_padding_2: 1
+
+up1_channel_2: 8
+up3_channel_2: 8
+
+G_channel_2: 8
+G_kernel_1: 3
+G_padding_1: 1
+G_kernel_2: 3
+G_padding_2: 1
