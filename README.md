@@ -23,7 +23,7 @@ Require Python 3.7.2
 ### Quick Running and Testing
 
 - Run  `run_example.py` for multi-view complete and incomplete clustering tasks to see the example performance. 
-- If you want to test your own datesets, you can put the datasets into **/ _multiview datasets** and obtain their graphs by ConstructW.zip. Then, you can move them into **/datasetW** and train the corresponding models by employing these graphs. Finally, you can set the configuration file according to the example **/config**.
+- If you want to test your own datesets, you can put the datasets into **\ _multiview datasets** and obtain their graphs by ConstructW.zip. Then, you can move them into **\datasetW** and train the corresponding models by employing these graphs. Finally, you can set the configuration file according to the example **\config**.
 
 ### Reference
 ```

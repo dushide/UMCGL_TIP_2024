@@ -7,8 +7,8 @@ if __name__ == '__main__':
     ## Parameter setting
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--data_path", type=str, default="/data/dusd/code/UMCGL_TIP_2024/_multiview datasets", help="Path of datasets.")
-    parser.add_argument("--datasetW_dir", type=str, default="/data/dusd/code/UMCGL_TIP_2024/datasetW", help="Path of W.")
+    parser.add_argument("--data_path", type=str, default="./_multiview datasets", help="Path of datasets.")
+    parser.add_argument("--datasetW_dir", type=str, default="./datasetW", help="Path of W.")
 
     parser.add_argument("--fix_seed", action='store_true', default=True, help="")
     parser.add_argument("--seed", type=int, default=2020, help="Random seed, default is 2020.")

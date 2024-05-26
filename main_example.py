@@ -9,7 +9,6 @@ from sklearn.preprocessing import normalize
 from utils.DataLoader import loadMGW, loadMGW1, loadMGW2, loadMGW3, loadMGW4, loadData
 from utils.Utils import spectral_clustering, GaussianNoise, GaussianNoise1, clustering, weights_init
 from model_example import Discriminator, Generator
-from args_UMCGL import parameter_parser
 
 def train(D_net, G_net, X, X_ran, lr, epochss, d_steps, g_steps, n_view, n, gnd, alpha, beta, datasetname, device):
     """
