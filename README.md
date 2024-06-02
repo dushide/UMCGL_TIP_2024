@@ -30,7 +30,7 @@ Require Python 3.7.2
 @ARTICLE{Du2024UMCGL,
   author={Du, Shide and Cai, Zhiling and Wu, Zhihao and Pi, Yueyang and Wang, Shiping},
   journal={IEEE Transactions on Image Processing}, 
-  title={UMCGL: Universal Multi-view Consensus Graph Learning with Consistency and Diversity}, 
+  title={{UMCGL}: Universal Multi-view Consensus Graph Learning with Consistency and Diversity}, 
   year={2024},
   volume={33},
   pages={3399-3412},
