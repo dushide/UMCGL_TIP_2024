@@ -32,8 +32,8 @@ Require Python 3.7.2
   journal={IEEE Transactions on Image Processing}, 
   title={UMCGL: Universal Multi-view Consensus Graph Learning with Consistency and Diversity}, 
   year={2024},
-  pages={1-15},
-  doi={10.1109/TIP.2024.3403055}
+  volume={33},
+  pages={3399-3412},
 }
 ```
 
